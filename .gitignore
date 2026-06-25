@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual envs / tooling
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Thallus runtime graph (local working DB)
+*.db
+
+# macOS
+.DS_Store
+
+# Local-only — the downstream app, its test, and internal notes are kept on disk
+# but are not part of the published `thallus` package.
+/app/
+/tests/test_app.py
+/CLAUDE.md
